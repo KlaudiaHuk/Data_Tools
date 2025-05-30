@@ -1,0 +1,34 @@
+SELECT DISTINCT
+
+Using DISTINCT answers the question:
+What unique values (e.g., XYZ) are there in the table?
+
+Examples:
+
+SELECT * FROM film;
+
+This is okay to use because the dataset is very small.
+
+SELECT DISTINCT release_year FROM film;
+SELECT DISTINCT (release_year) FROM film;
+
+Both are correct.
+Later on, when combining functions like COUNT and DISTINCT, parentheses will become necessary.
+
+SELECT DISTINCT (rental_rate) FROM film;
+
+---
+
+Exercise
+
+Situation:
+An Australian visitor isn't familiar with MPAA movie ratings (e.g., PG, PG-13, R, etc...).
+
+We want to find out what types of ratings exist in our database.
+
+Question:
+What movie ratings do we have available?
+
+Answer:
+
+SELECT DISTINCT rating FROM film;
