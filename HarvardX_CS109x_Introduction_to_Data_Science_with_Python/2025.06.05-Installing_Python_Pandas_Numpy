@@ -1,0 +1,18 @@
+Getting Started:
+
+I needed:
+Python
+Pandas
+Numpy
+
+Installed version of Python 3.13
+
+cmd -> python --version -> pip --version
+
+Anaconda -> Jupyter Notebook ->New
+
+import pandas as pd
+print(pd.__version__)
+
+import numpy as np
+print(np.__version__)
