@@ -1,0 +1,17 @@
+Installing R:
+http://cran.r-project.org/ -> Download R for Windows -> base -> Download R-4.5.0 for Windows
+
+Open and run the file you just downloaded R 
+There is no need to change the default installation
+
+Installing Rtools:
+http://cran.r-project.org/ -> Dowload R for Windows -> Rtools -> Rtools4.5 -> Rtools45 or 64-bit ARM Rtools45 (I installed Rtools45)
+
+Open and run the file you just downloaded Rtools 
+Again, there is no need to change the defaults
+
+Installing RStudio:
+course says http://www.rstudio.com/ (in reality its going to be posit.co/download/rstudio-desktop/) -> DOWNLOAD RSTUDIO DESKTOP FOR WINDOWS -> Download the installer for Windows
+
+Open and run the file you just downloaded RStudio
+You don't have to change any of the defaults for the installation
