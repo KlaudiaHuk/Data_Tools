@@ -1,2 +1,2 @@
 # Data_Tools
-A collection of practice files and exercises related to databases, spreadsheets, and data tools. Includes SQL (via pgAdmin), Microsoft Excel, MS Access, MS Azure, Power BI, Tableau, AWS, Databricks, CSV, SharePoint, and APIs - for step-by-step learning and experimentation.
+A collection of practice files and exercises related to databases, spreadsheets, and data tools. Includes SQL (via pgAdmin), Microsoft Excel, MS Access, MS Azure, Power BI - for step-by-step learning and experimentation.
