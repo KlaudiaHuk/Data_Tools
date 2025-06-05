@@ -1,9 +1,0 @@
-Using RStudio for the First Time:
-
-You see three panes. The left pane shows you the R console. On the right, the top pane includes thee tabs, while the bottom pane shows you five tabs, file, plots, packages, help, and viewer.
-You can click on the different tabs to move across the different features.
-
-New script:
-Click on file -> New file -> R script (This starts a new pane on the left) or Ctrl-Shift-N
-
-Cheat Sheet -> Help -> CheatSheets -> RStudio IDE Cheat Sheet
