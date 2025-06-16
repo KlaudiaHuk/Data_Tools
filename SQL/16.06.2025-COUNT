@@ -1,0 +1,29 @@
+COUNT
+The COUNT function returns the number of input rows that match a specific condition of a query.
+We can apply COUNT on a specific column or just pass COUNT(*), we will soon see this should return the same result.
+
+SELECT COUNT(name) FROM table;
+This is simply returning the number of rows in the table.
+In fact, it should be the same regardless of the column.
+Each column has the same number of rows.
+
+SELECT COUNT(name) FROM table;
+SELECT COUNT(choice) FROM table;
+SELECT COUNT(*) FROM table;
+All return the same thing, since the original table had 4 rows.
+
+Because of this COUNT by itself simply returns back a count of the number of rows in a table.
+COUNT is much more useful when combined with other commands, such as DISTINCT.
+
+Imagine we wanted to know: How many unique names are there in the table?
+SELECT COUNT(DISTINCT name) FROM table;
+
+Examples:
+
+SELECT * FROM payment;
+SELECT COUNT(*) FROM payment;
+SELECT COUNT(amount) FROM payment;
+SELECT amount FROM payment;
+SELECT DISTINCT amount FROM payment;
+SELECT COUNT DISTINCT amount FROM payment; -> error
+SELECT COUNT (DISTINCT amount) FROM payment; or SELECT COUNT (DISTINCT(amount)) FROM payment;
