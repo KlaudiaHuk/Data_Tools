@@ -1,0 +1,19 @@
+Power BI
+
+Power BI Desktop: Data Visualization, Data Transformation, Data Model
+
+Download Power BI - https://www.microsoft.com/en-us/download/details.aspx?id=58494
+
+Power BI Interface Tutorial: Loading Data and Creating Your First Visualization
+
+Get Data -> Text/CSV -> choose the file -> here you can Transform Data which will open Power BI tool Power Query Editor but for now we want to Close & Apply
+
+We can find our data on the right side of the screen in the Data pane.
+
+Drag and drop field into the canvas to create your first visualization.
+On the right, next to Data pane we can find pane called Visualizations. We are able to choose/change/format our visuals over there.
+
+On-object interaction
+File -> Options and settings -> Options -> Preview features -> On-object interaction -> reopen Power BI 
+
+This option allows us to add data to our visual.
