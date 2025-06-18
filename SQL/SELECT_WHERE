@@ -1,0 +1,59 @@
+SELECT WHERE
+SELECT and WHERE are the most fundamental SQL statements and you will find yourself using them often!
+The WHERE statement allows us to specify conditions on columns for the rows to be returned.
+
+Basic syntax example:
+SELECT column1, dolumn2
+FROM table
+WHERE conditions;
+
+The WHERE clause appears immediately after the FROM clause of the SELECT statement.
+The conditions are used to filter the rows returned from the SELECT statement.
+PostgreSQL provides a variety of standard operators to construct the conditions.
+
+Comparison Operators
+Compare a column value to something.
+Is the price greater then $3.00?
+Is the pet's name equal to "Sam"?
+
+Operator and Description
+= Equal
+> Greater than
+< Less than
+>= Greater than or equal to
+<= Less than or equal to
+<> or != Not equal to
+
+Logical Operators
+Allow us to combine multiple comparison operators
+AND
+OR
+NOT
+
+Examples:
+
+SELECT * FROM customer;
+SELECT * FROM customer
+WHERE first_name = 'Jared';
+SELECT * FROM film;
+SELECT * FROM film
+WHERE rental_rate > 4;
+SELECT * FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99;
+SELECT * FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+AND rating = 'R';
+SELECT title FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+AND rating = 'R';
+SELECT COUNT(title) FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+AND rating = 'R';
+or
+SELECT COUNT(*) FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99
+AND rating = 'R';
+SELECT COUNT(*) FROM film
+WHERE rating = 'R' OR rating = 'PG-13';
+SELECT * FROM film
+WHERE rating != 'R';
