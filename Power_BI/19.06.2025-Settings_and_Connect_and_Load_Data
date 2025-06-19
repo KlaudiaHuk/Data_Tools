@@ -1,0 +1,19 @@
+Configuring Initial Project Settings:
+File -> New -> Options and settings -> Option
+
+In my Power BI there is no need to get to File because the first what we see is the window where Options and settings are down there in the left corner.
+
+Global:
+Data Load -> Never detect column types and headers for unstructured sources
+We are going to do it manually so we really understand how it works.
+Regional Settings -> Application language - English (United States) and Model language - English (United States)
+Preview features -> On-object interaction
+
+Current file:
+Data Load -> uncheck all of the boxes in the Relationships section (we are going to do this manually)
+Regional Settings -> English (United States)
+
+Restart
+
+Connect and Load CSV Data in Power BI:
+Get data -> Text/CSV -> We have a preview of our data -> Transform Data -> We got Power Query Editor 
