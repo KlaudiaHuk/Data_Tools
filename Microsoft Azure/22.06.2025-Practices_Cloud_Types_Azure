@@ -1,0 +1,38 @@
+What is Cloud and what is it used for, and why is it useful?
+Cloud computing is the delivery of computing services - such as storage, databases, networking, software, analytics, and more - over the internet.
+The Cloud is used to store files online, run applications without installing them, host websides or virtual machines, back up data securely, perform data analysis, AI, and learning with high computing power.
+It is useful because user of the Cloud don't need physical servers or infrastructure, can access it from anywhere with internet access, and it helps scale quickly and reduce costs.
+
+¿Qué es la nube, para qué se usa y por qué es útil?
+La computación en la nube es la entrega de servicios informáticos - como almacenamiento, bases de datos, redes, software, análisis de datos y más - a través de internet.
+La nube se utiliza para almacenar archivos en línea, ejecutar aplicaciones sin necesidad de instalarlas, alojar sitios web o máquinas virtuales, hacer copias de seguridad de datos de forma segura, realizar análisis de datos, inteligencia artificial y aprendizaje automático con alta capacidad de procesamiento.
+Es útil porque no necesitas servidores físicos ni infraestructura propia. Puedes acceder a ella desde cualquier lugar con conexión a internet, y permite escalar rápidamente y reducir costes.
+
+What is CapEx and OpEx?
+CapEx (Capital Expenditure) refers to large, one-time investments that a company makes to purchase or improve long-term assets. Examples include buying servers, constructing a new office, or purchasing computers. 
+In the context of cloud computing, CapEx means buying and maintaining your own physical servers.
+OpEx (Operating Expenditure) refers to the ongoing costs of running a business. Examples include monthly payments for cloud services, office rent, electricity, internet, or software licenses.
+In the context of the cloud, OpEx means using cloud services and paying for them as needed.
+
+¿Qué son CapEx y OpEx?
+CapEx (Gasto de Capital) se refiere a inversiones grandes y puntuales que realiza una empresa para comprar o mejorar activos a largo plazo.
+Ejemplos incluyen comprar servidores, construir una nueva oficina o adquirir ordenadores.
+En el contexto de la computación en la nube, CapEx significa comprar y mantener tus propios servidores físicos.
+OpEx (Gasto Operativo) se refiere a los costos continuos de operar un negocio. Ejemplos incluyen pagos mensuales por servicios en la nube, alquiler de oficina, electricidad, internet o licencias de software.
+En el contexto de la nube, OpEx significa usar servicios en la nube y pagar por ellos según se necesiten.
+
+Types of Cloud Services: IaaS, Paas, Saas.
+
+Tipos de servicios en la nube: Iaas, Paas, Saas.
+
+Types of Clouds: Public, Private, Hybrid, Multi Cloud.
+
+Tipos de nubes: pública, privada, híbrida, multi-nube.
+
+What is Microsoft Azure and what services does it offer?
+Microsoft Azure is a cloud computing platform that provides a wide range of cloud services. With Azure, both companies and individual users can access computing resources, databases, storage, and various services without having to purchase or maintain their own hardware.
+The most important services offered by Microsoft Azure include Virtual Machines, Databases such as Azure SQL Database or Cosmos DB, AI and Machine Learning, Azure Storage, Azure App Service, Azure Active Directory, Backup and Disaster Recovery, Azure DevOps and Networking tools like Azure VPN and Load Balancer.
+
+¿Qué es Microsoft Azure y qué servicios ofrece?
+Microsoft Azure es una plataforma de computación en la nube que ofrece una amplia gama de servicios en la nube. Con Azure, tanto las empresas como los usuarios individuales pueden acceder a recursos de computación, bases de datos, almacenamiento y diversos servicios sin necesidad de comprar o mantener su propio hardware.
+Los servicios más importantes que ofrece Microsoft Azure incluyen Máquinas virtuales de Azure (Azure Virtual Machines), Bases de datos (como Azure SQL Database o Cosmos DB), Herramientas de inteligencia artificial y aprendizaje automático (AI y Machine Learning), Almacenamiento de Azure (Azure Storage), Servicio de aplicaciones (Azure App Service), Azure Active Directory, Copia de seguridad y recuperación ante desastres (Backup y Disaster Recovery), Azure DevOps y Herramientas de red como Azure VPN y Load Balancer
