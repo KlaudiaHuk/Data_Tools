@@ -1,0 +1,31 @@
+SELECT WHERE Exercises
+
+Challenge1
+A customer forgot their wallet at our store! We need to track down their email to inform them.
+What is the email for the customer with the name Nancy Thomas?
+
+Answer:
+SELECT email FROM customer
+WHERE first_name = 'Nancy' AND last_name = 'Thomas';
+
+The email for the customer is 'nancy.thomas@sakilacustomer.org'.
+
+Challenge2
+A customer wants to know what the movie "Outlaw Hanky" is about.
+Could you give them the description for the movie "Outlaw Hanky"?
+
+Answer:
+SELECT description FROM film
+WHERE title = 'Outlaw Hanky';
+
+The description for the movie "Outlaw Hanky" is "A Thoughtful Story of an Astronaut and a Composer who must Conquer a Dog in The Sahara Desert.".
+
+Challenge3
+A customer is late on their movie return, and we've mailed them a letter to their address at '259 Ipoh Drive'. We should also call them on the phone to let them know.
+Can you get the phone number for the customer who lives at '259 Ipoh Drive'?
+
+Answer:
+SELECT phone FROM address
+WHERE address = '259 Ipoh Drive';
+
+The phone number for this customer is '419009857119'.
