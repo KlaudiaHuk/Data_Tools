@@ -1,0 +1,22 @@
+Creating Resource:
+
+Search bar -> Resource groups (you have there list of your resources) -> click + Create -> Project details: Subsciption (the one you have) and Resource group (name it), Resource details: Region (choose resources close to the using point) -> Review + create -> Create if there is everything okay with the data 
+
+Notifications - you're going to get a notification informing you that your resource group was created. In the notification you can find two bottons - "Go to resources group" and "Pin to dashboard". 
+
+Reopening portal and finding the Resources:
+
+Main portal -> down there Resources and Recent
+Click Search bar -> there is Recent resources
+Search bar -> Name of your Resource
+
+Deleting Resource:
+
+Search bar -> Name of your Resource -> Inside of your Resource Group click the button called "Delete resource group" -> Enter resource group name to confirm deletion -> Confirm
+
+Cloud Shell -> Top right typical terminal icon -> click Bash or PowerShell -> No storage account required -> Select the subscription and Apply ->
+Bash: az group create -l YourLocation -n XYZ -> check in the Search bar if your group exists
+PowerShell: New-AzResourceGroup -Name (Name) -Location (Location) -> check if your group exists
+
+
+
