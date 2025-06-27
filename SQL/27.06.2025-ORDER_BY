@@ -1,0 +1,24 @@
+Basic syntax for ORDER BY
+
+SELECT column_1,column_2
+FROM table
+ORDER BY column_1 ASC/DESC 
+
+Use ASC to sort in ascending order
+Use DESC to sort in descending order
+Blank = ORDER BY uses ASC by default
+
+Practice:
+SELECT * FROM customer;
+SELECT * FROM customer
+ORDER BY first_name; !automatically ASC A-Z
+SELECT * FROM customer
+ORDER BY first_name DESC; <-shows from the end Z-A
+SELECT * FROM customer
+ORDER BY store_id; <-1,2,3,4 ASC
+SELECT store_id,first_name,last_name FROM customer
+ORDER BY store_id;
+SELECT store_id,first_name,last_name FROM customer
+ORDER BY store_id,first_name;
+SELECT store_id,first_name,last_name FROM customer
+ORDER BY store_id DESC, first_name ASC;
