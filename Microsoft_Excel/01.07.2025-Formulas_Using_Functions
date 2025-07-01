@@ -1,0 +1,18 @@
+Create Formulas Using Functions
+
+=C1+C2+C3+C4
+=C1+D1+E1+F1
+
+Function:
+AutoSum 
+=SUM(C1:C4) /=SUMA(C1:C4)
+
+Average:
+=AVERAGE(C1:C4) / =PROMEDIO(C1:C4)
+
+High:
+=MAX(C1:C4)
+
+Functions -> fx -> Insert Function -> All Functions
+Choose SUM -> Function Arguments -> Number 1 (mark your cells) Number 2 (maybe you need to add another ones) Number 3, etc.
+
