@@ -1,0 +1,21 @@
+Resource Groups
+A logic container for resources
+Used for grouping resources by a logic boundary
+Free
+Examples: 
+Development / Test / Production resources
+Team A resources
+
+Storage Account
+Used to store almost anything in Azure
+Used transparently by various services
+For example:
+Database backups
+VM Disks
+Diagnostics data
+Used also for explicit data storage
+Quite cheap
+
+SLA - Service Level Agreement
+The uptime % of a cloud service
+ALWAYS check the SLA of the service used
