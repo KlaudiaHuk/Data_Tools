@@ -1,0 +1,21 @@
+.NET SDK
+The .NET SDK (Software Development Kit) is a collection of tools made by Microsoft that lets you build and run applications using the .NET platform.
+
+What does it include?
+Compiler - turns your code (e.g., C#) into a working program.
+.NET libraries - pre-made code to help with things like files, web, databases, etc.
+Command-line tools - like dotnet new, dotnet run, and dotnet build.
+.NET Runtime - needed to run .NET apps.
+
+What is it used for?
+You use the .NET SDK to create:
+Console apps
+Web apps (ASP.NET)
+Desktop apps (WinForms, WPF)
+Mobile apps (with .NET MAUI)
+
+dotnet.microsoft.com/en-us/download/dotnet/8.0
+SDK 8.0.403
+Windows x64
+VS Code install too (I got it already)
++azure tools, C# in VS Code
