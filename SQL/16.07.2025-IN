@@ -1,0 +1,13 @@
+IN
+
+In certain cases you want to check for multiple possible value options, for example, if a user's name shows up IN a list of known names.
+We can use the IN operator to create a condition that checks to see if a value in included in a list of multiple options. 
+
+The general syntax is:
+value IN (option1,option2,...option_n)
+
+Example query:
+SELECT color FROM table
+WHERE color IN ('red','blue')
+SELECT color FROM table
+WHERE color NOT IN ('red','blue','green')
