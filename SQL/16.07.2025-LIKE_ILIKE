@@ -1,0 +1,28 @@
+LIKE and ILIKE
+
+The LIKE operator allows us to perform pattern matching against string data with the use of wildcard characters:
+Percent %
+Matches any sequence of characters 
+Underscore _
+Matches any single character
+
+All names that begin with an 'A'
+WHERE name LIKE 'A%'
+All names that end with an 'a'
+WHERE name LIKE '%a'
+
+Notice that LIKE is case-sensitive, we can use ILIKE which is case-insensitive
+
+Using the underscore allows us to replace just single character
+Get all Mission Impossible films
+WHERE title LIKE 'Mission Impossible _'
+
+You can use multiple underscores
+Imagine we had version string codes in the format 'Version#A4', 'Version#B7', etc...
+WHERE value LIKE 'Version# _ _ '
+
+We can also combine pattern matching operators to create more complex patterns 
+WHERE name LIKE ' _ her%'
+Cheryl
+Theresa
+Sherri
