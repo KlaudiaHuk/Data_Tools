@@ -1,0 +1,26 @@
+GROUP BY
+
+GROUP BY will allow us to aggregate data and apply functions to better understand how data is distributed per category.
+
+Aggregate Functions
+
+The main idea behind an aggregate function is to take multiple inputs and return a single output.
+
+Most Common Aggregate Functions:
+AVG() - returns average value
+COUNT() - returns number of values
+MAX() - returns maximum value
+MIN() - returns minimum value
+SUM() - returns the sum of all values
+
+Aggregate function calls happen only in the SELECT clause or the HAVING clause.
+
+AVG() returns a floating point value many decimal places (e.g. 2.342318...)
+You can use ROUND() to specify precision after the decimal.
+COUNT() simply returns the number of rows, which means by convention we just use COUNT(*)
+
+EXAMPLE
+SELECT MIN (replacement_cost) FROM film;
+SELECT MIN(replacement_cost), MAX(replacement_cost) FROM film;
+SELECT ROUND(AVG(replacement_cost),2) FROM film;
+SELECT SUM(replacement_cost) FROM film;
